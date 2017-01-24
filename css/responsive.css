@@ -1,18 +1,27 @@
-header {text-align: center;}
-body {margin:0;}
+header {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
 #gallery {
     width: auto;
-    margin:auto;
+    margin: auto;
 }
+
+/* --Kolory dodane w celu lepszej identyfikacji-- */ 
 
 @media (max-width:480px) {
     figure {
         width: 100%;
         margin: 5px 0;
     }
-    body {background-color: #903030;}
+    body {
+        background-color: #903030;
+    }
 }
-
 
 @media (min-width:481px) and (max-width:786px) {
     img,
@@ -20,7 +29,9 @@ body {margin:0;}
         width: 90%;
         margin: 10px auto;
     }
-    body {background-color: orange;}
+    body {
+        background-color: orange;
+    }
 }
 
 @media (min-width:787px) and (max-width:992px) {
@@ -29,7 +40,9 @@ body {margin:0;}
         width: 47.5%;
         margin: 10px auto;
     }
-    body {background-color: red;}
+    body {
+        background-color: red;
+    }
 }
 
 @media (min-width:993px) {
@@ -38,5 +51,7 @@ body {margin:0;}
         width: 33.0%;
         margin: 10px auto;
     }
-    body {background-color: blue;}
+    body {
+        background-color: blue;
+    }
 }
