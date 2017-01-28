@@ -18,7 +18,7 @@ body {
         width: 100%;
         margin: 5px 0;
         transition: 0.3s width ease-in-out;
-        margin: 0;
+        border: none;
     }
     body {
         background-color: #903030;
