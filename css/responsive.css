@@ -14,9 +14,11 @@ body {
 /* --Kolory dodane w celu lepszej identyfikacji-- */ 
 
 @media (max-width:480px) {
-    figure {
+    figure, img {
         width: 100%;
         margin: 5px 0;
+        transition: 0.3s width ease-in-out;
+        margin: 0;
     }
     body {
         background-color: #903030;
@@ -28,6 +30,7 @@ body {
     figure {
         width: 90%;
         margin: 10px auto;
+        transition: 0.3s width ease-in-out;
     }
     body {
         background-color: orange;
@@ -39,6 +42,7 @@ body {
     figure {
         width: 47.5%;
         margin: 10px auto;
+        transition: 0.3s width ease-in-out;
     }
     body {
         background-color: red;
@@ -50,6 +54,7 @@ body {
     figure {
         width: 33.0%;
         margin: 10px auto;
+        transition: 0.3s width ease-in-out;
     }
     body {
         background-color: blue;
